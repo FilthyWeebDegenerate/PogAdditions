@@ -1,0 +1,29 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+modId="pog_additions" #mandatory
+version="1.0.0" #mandatory
+displayName="Pog Additions" #mandatory
+#logoFile="examplemod.png" #optional
+credits="IDK" #optional
+authors="FilthyWeebDegenerate, BepicTub1, YES=YES" #optional
+description='''
+Some random mod I made when I got bored that adds random crap to the game :).
+'''
+
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
